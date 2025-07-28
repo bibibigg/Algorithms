@@ -21,7 +21,7 @@ function countUniqueValue(arr) {
   let right = 1;
   let count = 1;
   while (right < arr.length) {
-    if (arr[i] !== arr[j]) {
+    if (arr[left] !== arr[right]) {
       count++;
       left = right;
     }
